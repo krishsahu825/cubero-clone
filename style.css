@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: gilroy; */
+    font-family: 'matter light';
+    font-weight: 10;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/* first-page */
+
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+.logo{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.left {
+    position: relative;
+    left: 150px;
+    top: 100px;
+    font-size: 7rem;
+    font-weight: 600;
+
+
+}
+
+.head-vid {
+    border-radius: 7rem;
+    height: 120px;
+    position: relative;
+    top: 30px;
+}
+
+/* .sec-page{
+    height: 100%;
+    width: 100%;
+} */
+
+
+
+
+/* Third-page */
+
+
+.third-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+
+
+}
+
+.c-video {
+    height: 30vw;
+    position: relative;
+    left: 15vw;
+    top: 12vw;
+}
+
+.thir-right {
+    position: relative;
+    left: 18vw;
+    top: 13vw;
+    font-size: 2.4rem;
+}
+
+.thir-btn {
+    /* height: 10vw;
+    width: 25vw; */
+    padding: 5vw 7vw;
+    font-size: 1.8rem;
+    position: relative;
+    top: 3vw;
+    border-radius: 10vw;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* fourth-page */
+
+.four-page {
+    min-height: 650%;
+    width: 100%;
+    background-color: #111;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+    padding: 120px 170px;
+    overflow-x: hidden;
+
+
+}
+
+.four-vid {
+    border-radius: 7vw;
+    height: 7vw;
+}
+
+.lay-out {
+    display: flex;
+    gap: 70px;
+    position: relative;
+    top: 10rem;
+    justify-content: center;
+
+}
+
+.wrraper video {
+    height: 40vw;
+    border-radius: 3rem;
+}
+
+#w-vid-2 {
+    position: relative;
+    top: 20rem;
+}
+
+
+#w-vid-3 video {
+    height: 32vw;
+
+}
+
+#w-vid-3 {
+    position: relative;
+    top: 6rem;
+    right: 0.9rem;
+}
+
+#w-vid-4 {
+    position: relative;
+    top: 28rem;
+}
+#w-vid-5 video {
+   
+    height: 40vw;
+}
+#w-vid-5  {
+    position: relative;
+    top: 8rem;
+}
+
+#w-vid-6 video {
+    height: 32vw;
+}
+
+#w-vid-6 {
+    position: relative;
+    top: 34rem;
+}
+
+#w-vid-9 video {
+    height: 32vw;
+}
+
+#w-vid-9{
+    position: relative;
+    top: 14rem;
+}
+
+#w-vid-10 video {
+    height: 32vw;
+}
+
+#w-vid-10{
+    position: relative;
+    top: 34rem;
+}
+
+
+
+.caption {
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.caption2 {
+    font-size: 1.6rem;
+    /* padding: 20px; */
+    text-align: start;
+
+}
+
+/* fifth-page */
+
+.fifth-page{
+    height: 200%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+
+}
+
+.head-5 h1{
+    font-size: 11rem;
+    padding: 170px 180px;
+    font-weight: 100;
+}
+
+.fifth-2{
+    display: flex;
+}
+
+.balls-vid video{
+    height: 30vw;
+}
+.balls-vid {
+    padding: 50px 150px;
+}
+
+.fif-pag-content{
+    padding: 60px 40px;
+    font-size: 1.7rem;
+}
+
+
+/* sixth-page */
+
+.sixth-page{
+    height: 200%;
+    min-width:  100% auto;
+    background-color: #111;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+
+}
+
+.head-6 h1{
+    color: #fff;
+    font-size: 8rem;
+    padding: 170px 180px;
+
+
+}
